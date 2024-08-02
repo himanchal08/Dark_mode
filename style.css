@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(241, 212, 212);
+    transition: all ease 2.1s;
+}
+.switch{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.switch h1{
+    justify-content: center;
+    font-family: Times, Arial, Helvetica, sans-serif;
+    transition: all ease 0.8s;
+    
+}
+.switch button{
+    height: 45px;
+    width: 105px;
+    border-radius: 25px;
+    background-color:rgb(0, 0, 0);
+    transition: all ease 0.8s;
+    color: rgb(241, 212, 212);
+    border-style: none;
+    cursor: pointer;
+    
+
+}
+.switch button i{
+font-size: 20px;
+transition: 0.8s;
+}
+.options{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: wrap;
+}
+.options button{
+    margin: 5px;
+    margin-left:85px;
+}
+
+
+body.light-mode1 {
+    background-color: rgba(241, 212, 212,1);
+    color: rgba(0, 0, 0,1);
+}
+body.dark-mode1 {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(241, 212, 212,1);
+}
+.btan1.light-mode1 {
+    background-color: black;
+    color: rgb(241, 212, 212,1);
+}
+.btan1.dark-mode1 {
+    background-color: rgb(241, 212, 212,1);
+    color:rgba(0, 0, 0,1);
+}
+
+
+body.light-mode2 {
+    background-color: rgba(241, 212, 212,0.67);
+    color: rgba(0, 0, 0,0.67);
+}
+body.dark-mode2 {
+    background-color: rgba(0, 0, 0, 0.67);
+    color: rgba(241, 212, 212,0.67);
+}
+.btan2.light-mode2 {
+    background-color: black;
+    color: rgba(241, 212, 212,0.67);
+}
+.btan2.dark-mode2 {
+    background-color: rgba(241, 212, 212,0.67);
+    color: rgba(0, 0, 0, 0.67);
+}
+
+
+body.light-mode3 {
+    background-color:rgba(241, 212, 212,0.34);
+    color: rgba(0, 0, 0, 0.34);
+}
+body.dark-mode3 {
+    background-color: rgba(0, 0, 0, 0.34);
+    color: rgba(241, 212, 212,0.34);
+}
+.btan3.light-mode3 {
+    background-color: rgba(0, 0, 0, 0.34);
+    color: rgba(241, 212, 212,0.34);
+}
+.btan3.dark-mode3 {
+    background-color: rgba(241, 212, 212,0.34);
+    color: rgba(0, 0, 0, 0.34);
+}
