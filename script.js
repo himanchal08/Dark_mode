@@ -2,7 +2,6 @@ const btn1 = document.querySelector(".btan1");
 const btn2 = document.querySelector(".btan2");
 const btn3 = document.querySelector(".btan3");
 const back=document.querySelector("body");
-const head=document.querySelector("h1");
 const icn1 = document.querySelector(".ri-moon-clear-line");
 const icn2 = document.querySelector(".ri-moon-cloudy-line");
 const icn3 = document.querySelector(".ri-moon-foggy-line");
